@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nurse</title>
+	<link href="style1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<ul class="main-nav">
+		<li class="active"><a href="mainpage.html"> HOME </a></li>
+		<li class="active"><a href="viewnurse.php"> DISPLAY </a></li>
+		<li class="active"><a href="deletenurse.php"> DELETE </a></li>
+		<li class="active"><a href="updatenurse.php"> UPDATE </a></li>
+	</ul>
+	<form action="nurses.php" method="POST">
+	<div class="Nurse">
+	<table>
+		<tr>
+			<td>
+				NURSE NAME
+			</td>
+			<td>
+				<input type="text" placeholder="Name" name="nursename">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				NURSE ID
+			</td>
+			<td>
+				<input type="text" placeholder="ID" name="nurseid">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SPECIALSIT IN
+			</td>
+			<td>
+				<input type="text" placeholder="Special" name="spcl">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				WORKING HOURS
+			</td>
+			<td>
+				<input type="text" placeholder="Hours" name="workhrs">
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				PHONE NO:
+			</td>
+			<td>
+				<input type="text" placeholder="Phone no" name="phno">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="submit" value="submit" >
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>

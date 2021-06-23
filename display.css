@@ -1,0 +1,21 @@
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(display.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+table{
+	border-collapse:collaspe;
+	width:50%;
+	color:white;
+	font-family:monospace;
+	font-size:15px;
+	text-align:left;	
+	}
+	
+th{
+background-color:#588c7e;
+color:white;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>billing</title>
+	<link href="style1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<ul class="main-nav">
+		<li class="active"><a href="mainpage.html"> HOME </a></li>
+		<li class="active"><a href="viewbilling.php"> DISPLAY </a></li>
+		<li class="active"><a href="deletebilling.php"> DELETE </a></li>
+		<li class="active"><a href="updatebilling.php"> UPDATE </a></li>
+	</ul>
+	<form action="billing.php" method="POST">
+	<div class="billing">
+	<table>
+		<tr>
+			<td>
+				PATIENT NAME
+			</td>
+			<td>
+				<input type="text" placeholder="Name" name="patientname">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PATIENT ID
+			</td>
+			<td>
+				<input type="text" placeholder="ID" name="patientid">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				WARD NO
+			</td>
+			<td>
+				<input type="text" placeholder="NO" name="wardno">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				DISEASE
+			</td>
+			<td>
+				<input type="text" placeholder="Disease" name="disease">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				AMOUNT
+			</td>
+			<td>
+				<input type="text" placeholder="Amount" name="amount">
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				DATE
+			</td>
+			<td>
+				<input type="text" placeholder="Date" name="date">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PHONE NO:
+			</td>
+			<td>
+				<input type="text" placeholder="Phone no" name="phno">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="submit" value="submit">
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>

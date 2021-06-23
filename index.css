@@ -1,0 +1,97 @@
+
+.procedures
+{
+	 background-color: transparent; 
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:22px;
+	font-weight: bold;
+}
+
+#main-wrapper{
+	
+	border-radius : 10px;
+	background-color: white;
+	border: 3px solid #f1f1f1;
+	width: 500px;
+	margin: 0 auto;
+	
+}
+
+
+
+.admin {
+    background-color: green;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+}
+.customer
+{
+	background-color: green;
+    color: white;
+	margin-top:10px;
+	margin-bottom:15px;
+	padding:10px;
+    width: 100%;
+	font-size:16px;
+	font-weight: bold;
+	
+}
+.book
+{
+	background-color: orange;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+}
+
+.procedures
+{
+	background-color: orange;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+}
+
+.main-nav
+{
+	float:right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color:white;
+	text-decoration: none;
+	padding:5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+.main-nav li.active a
+{
+	border:1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border:1px solid white;
+}

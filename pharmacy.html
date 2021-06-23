@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>billing</title>
+	<link href="style1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<ul class="main-nav">
+		<li class="active"><a href="mainpage.html"> HOME </a></li>
+		<li class="active"><a href="viewpharmacy.php"> DISPLAY </a></li>
+		<li class="active"><a href="deletepharmacy.php"> DELETE </a></li>
+		<li class="active"><a href="updatepharmacy.php"> UPDATE </a></li>
+	</ul>
+	<form action="pharmacy.php" method="POST">
+	<div class="pharmacy">
+		
+	<table>
+		<tr>
+			<td>
+				PATIENT NAME:
+			</td>
+			<td>
+				<input type="text" placeholder="Name" name="patientname">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PATIENT ID:
+			</td>
+			<td>
+				<input type="text" placeholder="ID" name="patientid">
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				DISEASE:
+			</td>
+			<td>
+				<input type="text" placeholder="Disease" name="disease">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				TABLETS:
+			</td>
+			<td>
+				<input type="text" placeholder="Tablets" name="tablets">
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				AMOUNT:
+			</td>
+			<td>
+				<input type="text" placeholder="Amount" name="amount">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PHONE NO:
+			</td>
+			<td>
+				<input type="text" placeholder="Phone no" name="phno">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="SUBMIT" value="submit">
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>

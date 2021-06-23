@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doctor</title>
+	<link href="style1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<ul class="main-nav">
+		<li class="active"><a href="mainpage.html"> HOME </a></li>
+		<li class="active"><a href="view1.php"> DISPLAY </a></li>
+		<li class="active"><a href="delete1.php"> DELETE </a></li>
+		<li class="active"><a href="update1.php"> UPDATE </a></li>
+		<li class="active"><a href="logs.php"> LOGS </a></li>
+	</ul>
+	<form action="doctor.php" method="POST">
+	<div class="Doctor">
+	<table>
+		<tr><td>DOCTOR NAME</td>
+	<td><input type="text" placeholder="doctorname" name="doctorname" required></td>
+		</tr>
+		<tr>
+			<td>
+				DOCTOR ID
+			</td>
+			<td>
+				<input type="text" placeholder="doctorid" name="doctorid" required>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				COURSE
+			</td>
+			<td>
+				<input type="text" placeholder="course" name="course" required>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BRANCH
+			</td>
+			<td>
+				<input type="text" placeholder="branch" name="branch" required>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				GENDER:
+			</td>
+			<td>
+				<input type="radio"  name="gender" value="M" required>Male 
+			<input type="radio"  name="gender" value="F" required>Female
+
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PHONE NO:
+			</td>
+			<td>
+				<input type="text" placeholder="phoneno" name="phoneno" required>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="submit" value="submit">
+			</td>
+		</tr>
+	</table>
+</div>
+</form>
+
+</body>
+</html>

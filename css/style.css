@@ -1,0 +1,166 @@
+/*CSS file*/
+
+input{
+    width: 430px;
+	margin: 0 auto;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#main-wrapper{
+	
+	border-radius : 30px;
+	background-color: white;
+	border: 3px solid green;
+	width: 500px;
+	margin: 0 auto;
+	
+}
+.inner_container{
+	width:450px;
+	margin:0 auto;
+}
+.login_button {
+    background-color: green;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+}
+.admin
+{
+	    background-color: green;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+}
+.register_btn{
+	background-color: green;
+    color: white;
+	margin-top:10px;
+	margin-bottom:15px;
+	padding:10px;
+    width: 100%;
+	font-size:16px;
+	font-weight: bold;
+	
+}
+.back_btn{
+	margin-top:10px;
+	color: white;
+	margin-bottom:15px;
+    padding: 10px;
+    background-color: #e67e22;
+}
+.logout_button{
+	background-color: #c0392b;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+}
+
+.sign_up_btn {
+	background-color: #3498db;
+    color: white;
+	 padding:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+    width: 100%;
+	font-size:16px;
+	font-weight: bold;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.container {
+    margin: 16px;
+	width:100%;
+}
+
+
+
+
+
+.main-nav
+{
+	float:right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color:white;
+	text-decoration: none;
+	padding:5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+.main-nav li.active a
+{
+	border:1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border:1px solid white;
+}
+
+.customer
+{
+	   background-color: green;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+}
+.book
+{
+	 background-color: red;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+}
+
+.procedures
+{
+	 background-color: red;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+}
+
+
+
+
+

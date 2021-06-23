@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>patient</title>
+	<link href="style1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<ul class="main-nav">
+		<li class="active"><a href="mainpage.html"> HOME </a></li>
+		<li class="active"><a href="viewpatient.php"> DISPLAY </a></li>
+		<li class="active"><a href="deletepatient.php"> DELETE </a></li>
+		<li class="active"><a href="updatepatient.php"> UPDATE </a></li>
+	</ul>
+	<form action="patient.php" method="POST">
+	<div class="patient">
+	<table>
+		<tr>
+			<td>
+				PATIENT NAME
+			</td>
+			<td>
+				<input type="text" placeholder="Name" name="patientname">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PATIENT ID
+			</td>
+			<td>
+				<input type="text" placeholder="ID" name="patientid">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				WARD NO
+			</td>
+			<td>
+				<input type="text" placeholder="NO" name="wardno">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				DISEASE
+			</td>
+			<td>
+				<input type="text" placeholder="Disease" name="disease">
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				AGE
+			</td>
+			<td>
+				<input type="text" placeholder="Age" name="age">
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				GENDER:
+			</td>
+			<td>
+				<input type="radio"  name="gender" value="M" required>Male 
+			<input type="radio"  name="gender" value="F" required>Female
+
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<td>
+				PHONE NO:
+			</td>
+			<td>
+				<input type="text" placeholder="Phone no" name="phno">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="SUBMIT" value="submit">
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>
